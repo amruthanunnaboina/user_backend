@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+console.log(" i am here i am here")
 const userSchema = new mongoose.Schema({
   name: { type: String, required: true },
   email: { type: String, required: true, unique: true },
@@ -11,4 +11,4 @@ const userSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model('User', userSchema);
-//i am here
+// i am here;wjqd
